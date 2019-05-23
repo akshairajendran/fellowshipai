@@ -1,2 +1,3 @@
 food-101/data/*
+food-101/.ipynb_checkpoints/
 !food-101/data/data.sh
