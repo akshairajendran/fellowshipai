@@ -6,3 +6,6 @@ This repository contains the kernel for my challenge submission to Fellowship.AI
 
 ## Layout
 In the food-101 folder there is a data folder and main.ipynb notebook. The data folder contains a Bash script that downloads and unzips all of the necessary data, but does not contain the actual data itself for space reasons. The notebook contains everything needed to load the data, train the model and ultimately test the model. The notebook is completely self-documenting and describes the process and results in depth.
+
+## Results
+Using a variety of data augmentations, progressively resizing the image data from 112->224->512 and training for 34 epochs (~14 hours) I achieved a final accuracy of 88.68%.
